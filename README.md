@@ -1,4 +1,4 @@
-# Daybook
+# Personal
 
 Personal tasklist, monthly budget and calendar, with a responsive website and an offline Android app.
 
@@ -21,7 +21,7 @@ The native Java project in `android/` embeds the same website offline and bridge
 4. Install `android/app/build/outputs/apk/debug/app-debug.apk` on Android 8 or newer.
 5. Tap Enable notifications and permit Notifications plus Alarms & reminders. Without exact alarm permission, reminders may be delayed. Force-stopping the app disables delivery until reopening; manufacturer battery restrictions can also delay alarms.
 
-Android schedules reminders while closed, restores them after reboot, and reschedules birthdays annually. Dates use the device's local timezone. Task/event instants already scheduled are preserved through timezone changes; reopen Daybook to recalculate them for the current zone.
+Android schedules reminders while closed, restores them after reboot, and reschedules birthdays annually. Dates use the device's local timezone. Task/event instants already scheduled are preserved through timezone changes; reopen Personal to recalculate them for the current zone.
 
 ## Verification
 
