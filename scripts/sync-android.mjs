@@ -1,0 +1,1 @@
+import {cp,mkdir} from 'node:fs/promises';await mkdir('android/app/src/main/assets/www',{recursive:true});await cp('dist','android/app/src/main/assets/www',{recursive:true});console.log('Android web assets synchronized.');
